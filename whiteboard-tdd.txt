@@ -32,7 +32,7 @@ function fizzBuzz(n)
       {
       outputDisplayArr.push("buzz");
     }
-    else ([i] === n) {
+    else if ([i] === n) {
       return outputDisplayArr;
     }
   }
