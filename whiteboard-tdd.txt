@@ -1,0 +1,41 @@
+must recognize numbers
+must recognize multiples of 3, 5, and 3 AND 5
+must return strings
+must return string for non multiples
+must return FizzBuzz for #s divisible by 3 & 5
+must return Fizz for #s divisible by 3 
+must return Buzz for #s divisible by 5
+range = 1 <= n <= 10,000
+probably a for loop
+must push into an array
+must use .toString
+must separate our first array of n -- use .split " "
+create array from 1 to n (maybe?)
+create final output array
+Given an integer n, return a string array answer (1-indexed)
+
+
+
+function fizzBuzz(n)
+{
+  // count up by or count up to n.
+  const outputDisplayArr = [];
+  for (let i = 0; i <= n; i++){
+    if(([i]%3 === 0) && ([i]%5 === 0)){
+      outputDisplayArr.push("fizzbuzz") 
+    }
+    else if ([i]%3 === 0)
+    {
+      outputDisplayArr.push("fizz");
+    }
+    else if ([i]%5 === 0)
+      {
+      outputDisplayArr.push("buzz");
+    }
+    else ([i] === n) {
+      return outputDisplayArr;
+    }
+  }
+}
+ * @param {number} n
+ * @return {string[]}
