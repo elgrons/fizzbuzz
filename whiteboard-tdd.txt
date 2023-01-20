@@ -22,7 +22,7 @@ function fizzBuzz(n)
   const outputDisplayArr = [];
   for (let i = 0; i <= n; i++){
     if(([i]%3 === 0) && ([i]%5 === 0)){
-      outputDisplayArr.push("fizzbuzz") 
+      outputDisplayArr.push("fizzbuzz");
     }
     else if ([i]%3 === 0)
     {
